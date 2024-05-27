@@ -7,7 +7,7 @@ ORDER BY age DESC;`
 
   - Captura:
 
-<img src="assets\Captura de pantalla 2024-05-21 202321.png" alt="drawing" width="500"/>
+<img src="Captura de pantalla 2024-05-21 202321.png" alt="drawing" width="500"/>
 
 ## 2. Lista para  las conferencias para el evento con ID 1, ordenadas por hora de conferencia:
   - Sentencia:
@@ -16,7 +16,7 @@ WHERE event_id = 1
 ORDER BY hour;
 
   - Captura:
-  <img src="assets\Captura de pantalla 2024-05-21 202415.png" alt="drawing" width="500"/>
+  <img src="Captura de pantalla 2024-05-21 202415.png" alt="drawing" width="500"/>
 
 
 ## 3. Eventos que se realizarán en 'Nueva York', ordenados por fecha de inicio:
@@ -26,7 +26,7 @@ WHERE city = 'New York'
 ORDER BY start_date;
 
  - Captura:
- <img src="assets\Captura de pantalla 2024-05-21 202442.png" alt="drawing" width="500"/>
+ <img src="Captura de pantalla 2024-05-21 202442.png" alt="drawing" width="500"/>
 
 
 ## 4. Inscripciones a las que asistió el socio, ordenadas por fecha de inscripción:
@@ -36,7 +36,7 @@ WHERE assisted = TRUE
 ORDER BY registered_at;
 
 - Captura:
-<img src="assets\Captura de pantalla 2024-05-21 202511.png" alt="drawing" width="500"/>
+<img src="Captura de pantalla 2024-05-21 202511.png" alt="drawing" width="500"/>
 
 
 ## 5. Los miembros que se han registrado para una conferencia, ordenados por el ID de la conferencia para el que se registraron:
@@ -47,4 +47,4 @@ JOIN register ON member.id = register.member_id
 ORDER BY register.conference_id;
 
 - Captura:
-<img src="assets\Captura de pantalla 2024-05-21 202621.png" alt="drawing" width="500"/>
+<img src="Captura de pantalla 2024-05-21 202621.png" alt="drawing" width="500"/>
